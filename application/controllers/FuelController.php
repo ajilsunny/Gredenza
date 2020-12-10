@@ -41,7 +41,7 @@ class FuelController extends MainController {
 		return $html;
 	}
 	//Upload fuel
-	public function Upload_Fuel()
+	public function Upload_Fuel($dd)
 	{
 		$vehicle_id=$this->input->post('vehicle_id');
 		$qty=$this->input->post('qty');
